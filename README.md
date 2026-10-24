@@ -255,5 +255,5 @@ The signature output of the platform is compiled into [`reports/safety_passport.
 ---
 
 ## Demo
-- **Walkthrough Script:** [`demo/walkthrough_script.md`](file:///d:/peer-review/Sandbox%20Gauntlet/demo/walkthrough_script.md)
-- **Video Walkthrough:** [`demo/walkthrough.mp4`](file:///d:/peer-review/Sandbox%20Gauntlet/demo/walkthrough.mp4)
+- **Video Walkthrough:**  
+link : https://youtu.be/Jx5epuMRy_Q
