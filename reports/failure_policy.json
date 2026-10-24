@@ -1,0 +1,7 @@
+{
+  "failed_step": 7,
+  "total_steps": 10,
+  "policy": "fresh",
+  "rationale": "The fresh sandbox recovery policy was selected to guarantee deterministic task execution and prevent partial side-effects from polluting subsequent operations. When step 7 failed, partial mutations on the guest disk were safely discarded by terminating the unverified microVM and provisioning an isolated, clean environment where the entire workflow re-executes idempotently.",
+  "trace_path": "reports/failure_trace.jsonl"
+}

@@ -1,0 +1,191 @@
+{
+  "run_count": 20,
+  "runs": [
+    {
+      "run_id": "run-rel-0001",
+      "sandbox_name": "sbx-run00000001",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 3.52,
+      "boot_to_ready_s": 1.21,
+      "cost_usd": 1.5e-05
+    },
+    {
+      "run_id": "run-rel-0002",
+      "sandbox_name": "sbx-run00000002",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 3.65,
+      "boot_to_ready_s": 1.25,
+      "cost_usd": 1.5e-05
+    },
+    {
+      "run_id": "run-rel-0003",
+      "sandbox_name": "sbx-run00000003",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 3.71,
+      "boot_to_ready_s": 1.28,
+      "cost_usd": 1.5e-05
+    },
+    {
+      "run_id": "run-rel-0004",
+      "sandbox_name": "sbx-run00000004",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 3.84,
+      "boot_to_ready_s": 1.3,
+      "cost_usd": 1.6e-05
+    },
+    {
+      "run_id": "run-rel-0005",
+      "sandbox_name": "sbx-run00000005",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 3.92,
+      "boot_to_ready_s": 1.32,
+      "cost_usd": 1.6e-05
+    },
+    {
+      "run_id": "run-rel-0006",
+      "sandbox_name": "sbx-run00000006",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.01,
+      "boot_to_ready_s": 1.35,
+      "cost_usd": 1.7e-05
+    },
+    {
+      "run_id": "run-rel-0007",
+      "sandbox_name": "sbx-run00000007",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.12,
+      "boot_to_ready_s": 1.38,
+      "cost_usd": 1.7e-05
+    },
+    {
+      "run_id": "run-rel-0008",
+      "sandbox_name": "sbx-run00000008",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.19,
+      "boot_to_ready_s": 1.4,
+      "cost_usd": 1.7e-05
+    },
+    {
+      "run_id": "run-rel-0009",
+      "sandbox_name": "sbx-run00000009",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.25,
+      "boot_to_ready_s": 1.42,
+      "cost_usd": 1.8e-05
+    },
+    {
+      "run_id": "run-rel-0010",
+      "sandbox_name": "sbx-run00000010",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.31,
+      "boot_to_ready_s": 1.45,
+      "cost_usd": 1.8e-05
+    },
+    {
+      "run_id": "run-rel-0011",
+      "sandbox_name": "sbx-run00000011",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.4,
+      "boot_to_ready_s": 1.48,
+      "cost_usd": 1.8e-05
+    },
+    {
+      "run_id": "run-rel-0012",
+      "sandbox_name": "sbx-run00000012",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.52,
+      "boot_to_ready_s": 1.51,
+      "cost_usd": 1.9e-05
+    },
+    {
+      "run_id": "run-rel-0013",
+      "sandbox_name": "sbx-run00000013",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.63,
+      "boot_to_ready_s": 1.55,
+      "cost_usd": 1.9e-05
+    },
+    {
+      "run_id": "run-rel-0014",
+      "sandbox_name": "sbx-run00000014",
+      "fresh": true,
+      "success": false,
+      "wall_clock_s": 4.75,
+      "boot_to_ready_s": 1.58,
+      "cost_usd": 2e-05
+    },
+    {
+      "run_id": "run-rel-0015",
+      "sandbox_name": "sbx-run00000015",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.88,
+      "boot_to_ready_s": 1.62,
+      "cost_usd": 2e-05
+    },
+    {
+      "run_id": "run-rel-0016",
+      "sandbox_name": "sbx-run00000016",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.02,
+      "boot_to_ready_s": 1.65,
+      "cost_usd": 2.1e-05
+    },
+    {
+      "run_id": "run-rel-0017",
+      "sandbox_name": "sbx-run00000017",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.15,
+      "boot_to_ready_s": 1.7,
+      "cost_usd": 2.1e-05
+    },
+    {
+      "run_id": "run-rel-0018",
+      "sandbox_name": "sbx-run00000018",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.34,
+      "boot_to_ready_s": 1.75,
+      "cost_usd": 2.2e-05
+    },
+    {
+      "run_id": "run-rel-0019",
+      "sandbox_name": "sbx-run00000019",
+      "fresh": true,
+      "success": false,
+      "wall_clock_s": 5.6,
+      "boot_to_ready_s": 1.82,
+      "cost_usd": 2.3e-05
+    },
+    {
+      "run_id": "run-rel-0020",
+      "sandbox_name": "sbx-run00000020",
+      "fresh": true,
+      "success": false,
+      "wall_clock_s": 6.1,
+      "boot_to_ready_s": 2.05,
+      "cost_usd": 2.5e-05
+    }
+  ],
+  "success_rate": 0.85,
+  "median_wall_clock_s": 4.355,
+  "p90_wall_clock_s": 5.34,
+  "median_boot_to_ready_s": 1.465,
+  "total_cost_usd": 0.000372,
+  "postmortem_path": "reports/postmortem.md"
+}

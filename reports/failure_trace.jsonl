@@ -1,0 +1,21 @@
+{"ts": "2026-10-23T11:53:15.717706+00:00", "event": "run_started", "sandbox_name": "sbx-failrec001", "total_steps": 10, "target_failure_step": 7}
+{"ts": "2026-10-23T11:53:15.717706+00:00", "event": "step_execution", "step": 1, "name": "initialize_workspace", "status": "success"}
+{"ts": "2026-10-23T11:53:15.717706+00:00", "event": "step_execution", "step": 2, "name": "load_dataset", "status": "success"}
+{"ts": "2026-10-23T11:53:15.717706+00:00", "event": "step_execution", "step": 3, "name": "validate_schema", "status": "success"}
+{"ts": "2026-10-23T11:53:15.717706+00:00", "event": "step_execution", "step": 4, "name": "compute_aggregates", "status": "success"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "step_execution", "step": 5, "name": "generate_intermediate_checkpoint", "status": "success"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "step_execution", "step": 6, "name": "audit_records", "status": "success"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "step_failure_injected", "step": 7, "name": "injectable_risky_operation", "error": "InjectedSimulatedFault: Step 7 encountered non-recoverable segmentation error", "status": "failed"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "policy_decision", "failed_step": 7, "selected_policy": "fresh", "decision_reason": "Fresh sandbox policy chosen to ensure strict idempotent isolation and discard corrupted state."}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "policy_applied", "policy": "fresh", "old_sandbox": "sbx-failrec001", "old_sandbox_action": "deleted", "new_sandbox": "sbx-failrec002", "recovery_strategy": "discard_failed_vm_and_reinitialize_clean_environment"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "step_execution", "step": 1, "name": "initialize_workspace", "sandbox_name": "sbx-failrec002", "status": "success"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "step_execution", "step": 2, "name": "load_dataset", "sandbox_name": "sbx-failrec002", "status": "success"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "step_execution", "step": 3, "name": "validate_schema", "sandbox_name": "sbx-failrec002", "status": "success"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "step_execution", "step": 4, "name": "compute_aggregates", "sandbox_name": "sbx-failrec002", "status": "success"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "step_execution", "step": 5, "name": "generate_intermediate_checkpoint", "sandbox_name": "sbx-failrec002", "status": "success"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "step_execution", "step": 6, "name": "audit_records", "sandbox_name": "sbx-failrec002", "status": "success"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "step_execution", "step": 7, "name": "injectable_risky_operation", "sandbox_name": "sbx-failrec002", "status": "success"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "step_execution", "step": 8, "name": "normalize_outputs", "sandbox_name": "sbx-failrec002", "status": "success"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "step_execution", "step": 9, "name": "generate_final_report", "sandbox_name": "sbx-failrec002", "status": "success"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "step_execution", "step": 10, "name": "verify_and_seal_artifacts", "sandbox_name": "sbx-failrec002", "status": "success"}
+{"ts": "2026-10-23T11:53:15.721410+00:00", "event": "run_completed", "sandbox_name": "sbx-failrec002", "outcome": "succeeded", "steps_completed": 10, "final_status": "verified"}

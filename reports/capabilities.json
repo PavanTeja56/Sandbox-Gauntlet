@@ -1,0 +1,14 @@
+{
+  "capabilities": [
+    {
+      "id": "safety_hooks",
+      "why": "Safety callbacks execute before guest VM instructions to intercept prohibited commands such as destructive file deletions, fork bombs, and unauthorized package installations.",
+      "evidence_path": "reports/evidence/containment.log"
+    },
+    {
+      "id": "network_policy",
+      "why": "Network policy enforces strict outbound egress rules preventing compromised agents or prompt-injected web pages from exfiltrating credentials or sensitive data.",
+      "evidence_path": "reports/evidence/containment.log"
+    }
+  ]
+}

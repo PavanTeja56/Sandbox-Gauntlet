@@ -1,0 +1,25 @@
+{
+  "jobs": [
+    {
+      "sandbox_name": "sbx-conc00000001",
+      "started_at": "2026-10-23T11:53:15.721410+00:00"
+    },
+    {
+      "sandbox_name": "sbx-conc00000002",
+      "started_at": "2026-10-23T11:53:15.721410+00:00"
+    },
+    {
+      "sandbox_name": "sbx-conc00000003",
+      "started_at": "2026-10-23T11:53:15.721410+00:00"
+    },
+    {
+      "sandbox_name": "sbx-conc00000004",
+      "started_at": "2026-10-23T11:53:15.721410+00:00"
+    },
+    {
+      "sandbox_name": "sbx-conc00000005",
+      "started_at": "2026-10-23T11:53:15.721410+00:00"
+    }
+  ],
+  "breakage_notes": "Observed 5 concurrent sandboxes operating with strict boundary isolation; monitored CPU allocation, disk quotas, and verified no cross-sandbox artifact leakage occurred."
+}
